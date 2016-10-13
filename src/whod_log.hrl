@@ -1,0 +1,5 @@
+-define(LOG_E(Format, Data), lager:error(Format, Data)).
+-define(LOG_W(Format, Data), lager:warning(Format, Data)).
+-define(LOG_I(Format, Data), lager:info(Format, Data)).
+-define(LOG_D(Format, Data), lager:debug(Format, Data)).
+-define(ACCESS_LOG(Format, Data), whod_access_log:info(Format, Data)).

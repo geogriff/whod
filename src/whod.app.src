@@ -1,0 +1,11 @@
+{application,whod,
+             [{vsn,"1.0.0"},
+              {description,"whoami DNS daemon"},
+              {registered,[]},
+              {mod,{whod_app,[]}},
+              {applications,[kernel,lager,sasl,stdlib]},
+              {env,[]},
+              {modules,[]},
+              {maintainers,[]},
+              {licenses,[]},
+              {links,[]}]}.
